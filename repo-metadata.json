@@ -1,0 +1,12 @@
+{
+  "description": "Schema-driven universal API mock server with OpenAPI ingestion, stateful storage, and chaos latency simulation in pure PHP",
+  "topics": [
+    "eidcloud",
+    "api-mock",
+    "mock-server",
+    "openapi",
+    "swagger",
+    "chaos-testing",
+    "php8"
+  ]
+}

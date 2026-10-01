@@ -1,0 +1,27 @@
+{
+  "name": "eidcloud/api-mock",
+  "description": "Schema-driven universal API mock server with OpenAPI ingestion, stateful storage, and chaos latency simulation in pure PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eng. MHD. Shadi AL-Hasan",
+      "email": "shadi@eidcloud.com",
+      "role": "Lead Architect & Maintainer"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EidCloud\\ApiMock\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/eidcloud-mock"
+  ],
+  "scripts": {
+    "test": "php tests/run_tests.php"
+  }
+}
